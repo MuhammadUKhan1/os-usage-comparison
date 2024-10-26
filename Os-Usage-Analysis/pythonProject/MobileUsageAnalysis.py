@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 # reads a csv file
-df = pd.read_csv('C:/Users/Uzair/Desktop/Pratice/pythonProject/csv_file/user_behavior_dataset.csv')
+df = pd.read_csv('csv_file/user_behavior_dataset.csv')
 #filters the dataframe based on os, usage, age, and gender
 filtered = df.filter(items=['Operating System', 'App Usage Time (min/day)', 'Age', 'Gender'])
 
